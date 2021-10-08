@@ -46,7 +46,7 @@ body {
   footer {
       background: #fce138;
       width: 100%;
-      padding: 40px 35px;
+      padding: 30px 35px;
   }
 
   footer h2 {
@@ -240,20 +240,42 @@ body {
 
   .contact h2 {
       color: #fce138;
+      display: inline-block;
+      width: 668px;
   }
 
   .contact-info iframe {
-      width: 400px;
-      height: 400px;
+      width: 380px;
+      height: 380px;
+      padding: 0 0 30px 0;
   }
 
-  .contact-info div{
+  .contact-info {
       width: 410px;
       display: inline-block;
+      float: left;
       vertical-align: top;
       text-align: left;
-      margin: 3px 0 0 60px;
+      margin: 3px 0 0 200px;
       color: white;
+  }
+
+  .questions {
+    width: 410px;
+    display: inline;
+    vertical-align: top;
+    text-align: left;
+    margin: 3px 0 0 55px;
+    color: white;
+  }
+
+  .address {
+    width: 520px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 3px 0 0 55px;
+    color: white;
   }
 
   .contact h3 {
@@ -267,7 +289,7 @@ body {
     font-size: 20px;
     font-style: normal;
   }
-  
+
   .contact a {
     color: #fce138;
   }
